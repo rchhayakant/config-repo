@@ -19,7 +19,8 @@ spring:
 management:
   endpoints:
     web:
-      exposure: "*"
+      exposure:
+        include: "*"
 
 jwt:
   secret: 41Dk432fD23423aADF342lkj234ADF987asdf987ADF345lkj345ADF345ADF345ADF
